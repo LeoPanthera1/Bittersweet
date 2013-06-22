@@ -4,13 +4,6 @@
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
    <drawings>
     <dwg name="1"/>
-    <dwg name="2"/>
-    <dwg name="3"/>
-    <dwg name="4"/>
-    <dwg name="5"/>
-    <dwg name="6"/>
-    <dwg name="7"/>
-    <dwg name="8"/>
    </drawings>
   </element>
   <element id="2" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
@@ -31,13 +24,6 @@
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-9" val="1" id="1"/>
-     <elementSeq exposures="10-15" val="2" id="1"/>
-     <elementSeq exposures="16-21" val="3" id="1"/>
-     <elementSeq exposures="22-30" val="4" id="1"/>
-     <elementSeq exposures="31-36" val="5" id="1"/>
-     <elementSeq exposures="37-44" val="6" id="1"/>
-     <elementSeq exposures="45-54" val="7" id="1"/>
-     <elementSeq exposures="55" val="8" id="1"/>
     </column>
     <column type="0" name="ATV-06B456B70FC19A30" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-76" val="1" id="2"/>
