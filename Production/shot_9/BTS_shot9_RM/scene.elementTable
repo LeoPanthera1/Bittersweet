@@ -5,4 +5,5 @@
  <element id="3" elementName="Chip_ref" elementFolder="Chip_ref" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="4" elementName="Chip_Rough" elementFolder="Chip_Rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="5" elementName="Cocoa_Rough" elementFolder="Cocoa_Rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="6" elementName="Background" elementFolder="Background" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0"/>
 </elements>

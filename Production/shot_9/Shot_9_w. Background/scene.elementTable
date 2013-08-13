@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<elements source="Animate Pro (AnimatePro) version 10.5.0 build 8357 2013-07-10 11:43:11" version="1050" build="8357" meta="true">
- <element id="1" elementName="Blockin" elementFolder="Blockin" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="2" elementName="Perspective" elementFolder="Perspective" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="3" elementName="Chip_ref" elementFolder="Chip_ref" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="4" elementName="Chip_Rough" elementFolder="Chip_Rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="5" elementName="Cocoa_Rough" elementFolder="Cocoa_Rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="6" elementName="Shot_9" elementFolder="Shot_9" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-</elements>
