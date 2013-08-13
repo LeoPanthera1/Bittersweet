@@ -22,6 +22,18 @@
     <dwg name="17"/>
     <dwg name="18"/>
     <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
    </drawings>
   </element>
   <element id="2" elementName="Fart" elementFolder="Fart" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
@@ -42,6 +54,10 @@
     <dwg name="2"/>
     <dwg name="3"/>
     <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
    </drawings>
   </element>
  </elements>
@@ -70,12 +86,22 @@
      <elementSeq exposures="34-35" val="15" id="1"/>
      <elementSeq exposures="36-37" val="16" id="1"/>
      <elementSeq exposures="38-39" val="17" id="1"/>
-     <elementSeq exposures="40-44" val="18" id="1"/>
-     <elementSeq exposures="45-49" val="19" id="1"/>
-     <elementSeq exposures="50-69" val="13" id="1"/>
-     <elementSeq exposures="70" val="5" id="1"/>
+     <elementSeq exposures="40-41" val="18" id="1"/>
+     <elementSeq exposures="42-43" val="22" id="1"/>
+     <elementSeq exposures="44" val="23" id="1"/>
+     <elementSeq exposures="45" val="19" id="1"/>
+     <elementSeq exposures="46" val="20" id="1"/>
+     <elementSeq exposures="47" val="21" id="1"/>
+     <elementSeq exposures="48" val="13" id="1"/>
+     <elementSeq exposures="49" val="24" id="1"/>
+     <elementSeq exposures="50-51" val="25" id="1"/>
+     <elementSeq exposures="52-53" val="26" id="1"/>
+     <elementSeq exposures="54-55" val="27" id="1"/>
+     <elementSeq exposures="56-57" val="29" id="1"/>
+     <elementSeq exposures="58-59" val="30" id="1"/>
+     <elementSeq exposures="60-70" val="31" id="1"/>
     </column>
-    <column type="0" name="ATV-06C35B573D5BD28A" display="false" displayOrder="1" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06C35B573D5BD28A" displayOrder="1" width="100" anonymous="true" id="2">
      <elementSeq exposures="34" val="1" id="2"/>
      <elementSeq exposures="35" val="2" id="2"/>
      <elementSeq exposures="36" val="3" id="2"/>
@@ -90,6 +116,9 @@
      <elementSeq exposures="43" val="2" id="3"/>
      <elementSeq exposures="44" val="3" id="3"/>
      <elementSeq exposures="45" val="4" id="3"/>
+     <elementSeq exposures="46" val="5" id="3"/>
+     <elementSeq exposures="47" val="6" id="3"/>
+     <elementSeq exposures="48-49" val="7" id="3"/>
     </column>
    </columns>
    <options>
