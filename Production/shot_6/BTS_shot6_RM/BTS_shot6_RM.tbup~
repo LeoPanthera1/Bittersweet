@@ -57,7 +57,7 @@
  <scenes>
   <scene name="Top" id="06b24dedb6a003ff" nbframes="30">
    <columns>
-    <column type="0" name="ATV-06B24EA43701DD7C" display="false" displayOrder="3" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06B24EA43701DD7C" displayOrder="3" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-2" val="2" id="2"/>
      <elementSeq exposures="3-4" val="5" id="2"/>
      <elementSeq exposures="5-6" val="6" id="2"/>
@@ -84,7 +84,7 @@
      <elementSeq exposures="13-14" val="7" id="4"/>
      <elementSeq exposures="15-16" val="8" id="4"/>
     </column>
-    <column type="0" name="ATV-06C359A52C5007C4" displayOrder="4" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-06C359A52C5007C4" display="false" displayOrder="4" width="100" anonymous="true" id="5">
      <sceneSeq exposures="1-30" id="06c359a52c5007c5" frame="1"/>
     </column>
     <column type="0" name="ATV-06C35D2AA67031E5" displayOrder="2" width="100" anonymous="true" id="7">
@@ -339,6 +339,7 @@
      </module>
      <module type="READ" name="Background" pos="0,0,2">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
