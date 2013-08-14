@@ -113,7 +113,7 @@
      <elementSeq exposures="25-42" val="12" id="8"/>
      <elementSeq exposures="43" val="13" id="8"/>
     </column>
-    <column type="0" name="ATV-06C2CEA204F669B8" displayOrder="4" width="100" anonymous="true" id="10">
+    <column type="0" name="ATV-06C2CEA204F669B8" display="false" displayOrder="4" width="100" anonymous="true" id="10">
      <elementSeq exposures="1-18" val="1" id="10"/>
      <elementSeq exposures="19-20" val="3" id="10"/>
      <elementSeq exposures="21" val="4" id="10"/>
@@ -135,7 +135,7 @@
     <column type="0" name="ATV-06C35DD649B41988" display="false" displayOrder="1" width="100" anonymous="true" id="12">
      <elementSeq exposures="18-42" val="1" id="12"/>
     </column>
-    <column type="0" name="ATV-06C380C25C1608AF" displayOrder="2" width="100" anonymous="true" id="13">
+    <column type="0" name="ATV-06C380C25C1608AF" display="false" displayOrder="2" width="100" anonymous="true" id="13">
      <elementSeq exposures="1-18" val="1" id="13"/>
      <elementSeq exposures="19-20" val="2" id="13"/>
      <elementSeq exposures="21" val="3" id="13"/>
@@ -488,6 +488,7 @@
      </module>
      <module type="READ" name="Faces" pos="0,0,6">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -775,6 +776,7 @@
      </module>
      <module type="READ" name="2211" pos="0,0,1">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>

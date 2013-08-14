@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Animate Pro (AnimatePro.exe) version 7.9.1 build 6016 2010-09-15 10:39:08" version = "791" build="6016">
  <elements>
-  <element id="1" elementName="bg" elementFolder="bg" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
-   <drawings>
-    <dwg name="1"/>
-   </drawings>
-  </element>
   <element id="2" elementName="chip" elementFolder="chip" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
    <drawings>
     <dwg name="1"/>
@@ -58,6 +53,11 @@
     <dwg name="15"/>
    </drawings>
   </element>
+  <element id="5" elementName="Background" elementFolder="Background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -69,9 +69,6 @@
  <scenes>
   <scene name="Top" id="06c34ab712200116" nbframes="26">
    <columns>
-    <column type="0" name="Drawing" displayOrder="4" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1-26" val="1" id="1"/>
-    </column>
     <column type="0" name="ATV-06C34B107E500F7F" displayOrder="3" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-2" val="1" id="2"/>
      <elementSeq exposures="3-4" val="6" id="2"/>
@@ -89,7 +86,7 @@
      <elementSeq exposures="23-24" val="15" id="2"/>
      <elementSeq exposures="25-26" val="16" id="2"/>
     </column>
-    <column type="0" name="ATV-06C34C5D0351833D" display="false" displayOrder="1" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-06C34C5D0351833D" displayOrder="1" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-26" val="9" id="3"/>
     </column>
     <column type="0" name="ATV-06C35EF51E47F947" displayOrder="2" width="100" anonymous="true" id="4">
@@ -108,6 +105,9 @@
      <elementSeq exposures="23-24" val="13" id="4"/>
      <elementSeq exposures="25-26" val="15" id="4"/>
     </column>
+    <column type="0" name="ATV-06C3CA96F6E02AB0" displayOrder="4" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1-26" val="1" id="5"/>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -117,7 +117,7 @@
      <collapsed val="false"/>
     </options>
     <nodelist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,0">
+     <module type="COMPOSITE" name="Composite" pos="0,0,2">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -135,13 +135,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,0">
+     <module type="DISPLAY" name="Display" pos="50,50,3">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,0">
+     <module type="WRITE" name="Write" pos="-50,50,4">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -164,7 +164,7 @@
        </enabling>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="0,0,0">
+     <module type="READ" name="Drawing" pos="0,0,5">
       <options>
        <disabled val="true"/>
        <version val="1"/>
@@ -260,7 +260,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="cocoa" pos="0,0,0">
+     <module type="READ" name="cocoa" pos="0,0,6">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -355,7 +355,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="chip" pos="0,0,0">
+     <module type="READ" name="chip" pos="0,0,7">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -450,7 +450,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="bg" pos="-65,-50,0">
+     <module type="READ" name="Background" pos="0,0,1">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -508,7 +508,7 @@
        <ikStiffness val="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="Drawing"/>
+        <element col="ATV-06C3CA96F6E02AB0"/>
         <customName>
          <name/>
          <extension val="tga"/>
@@ -519,7 +519,7 @@
        <readColorArt val="true"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
+       <applyMatteToColor val="W"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="MEDIUM"/>
        <antialiasingExponent val="1"/>
@@ -540,7 +540,7 @@
        <noClipping val="false"/>
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -552,7 +552,7 @@
      <link out="Drawing" in="Composite" inport="3"/>
      <link out="cocoa" in="Composite" inport="2"/>
      <link out="chip" in="Composite" inport="1"/>
-     <link out="bg" in="Composite" inport="0"/>
+     <link out="Background" in="Composite" inport="0"/>
     </linklist>
    </rootgroup>
   </scene>

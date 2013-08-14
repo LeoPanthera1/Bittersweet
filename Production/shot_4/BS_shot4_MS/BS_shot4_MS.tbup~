@@ -64,7 +64,7 @@
      <elementSeq exposures="22" val="4" id="3"/>
     </column>
     <column type="0" name="ATV-06C356BED1D0097C" displayOrder="4" width="100" anonymous="true" id="4">
-     <elementSeq exposures="1" val="1" id="4"/>
+     <elementSeq exposures="1-33" val="1" id="4"/>
     </column>
    </columns>
    <options>
