@@ -26,7 +26,7 @@
   <zOrderCompatibilityWith7_3 val="false"/>
  </options>
  <scenes>
-  <scene name="Top" id="06b45169a3d00360" nbframes="17">
+  <scene name="Top" id="06b45169a3d00360" nbframes="77">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="7" id="1"/>
