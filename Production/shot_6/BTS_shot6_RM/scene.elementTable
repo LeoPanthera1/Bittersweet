@@ -4,4 +4,5 @@
  <element id="4" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="5" elementName="Background" elementFolder="Background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0"/>
  <element id="6" elementName="Shot_6" elementFolder="Shot_6" pixmapFormat="10" scanType="0" fieldChart="12" vectorType="0"/>
+ <element id="7" elementName="Clean" elementFolder="Clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
 </elements>
