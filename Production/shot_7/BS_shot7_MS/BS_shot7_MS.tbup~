@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Animate Pro (AnimatePro.exe) version 7.9.1 build 6016 2010-09-15 10:39:08" version = "791" build="6016">
  <elements>
-  <element id="1" elementName="Cocoa" elementFolder="Cocoa" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
+  <element id="1" elementName="Coaco" elementFolder="Coaco" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
@@ -15,6 +15,7 @@
     <dwg name="10"/>
     <dwg name="11"/>
     <dwg name="12"/>
+    <dwg name="13"/>
    </drawings>
   </element>
   <element id="2" elementName="Chip" elementFolder="Chip" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
@@ -73,15 +74,21 @@
     <dwg name="3"/>
    </drawings>
   </element>
-  <element id="5" elementName="Background" elementFolder="Background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0">
+  <element id="5" elementName="chip_clean" elementFolder="chip_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
    </drawings>
   </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
-  <resolution name="HDTV" size="1920,1080" fovFit="HorizontalFitFov" fov="31.4173"/>
+  <resolution size="1920,1430" fovFit="HorizontalFitFov" fov="40.8502"/>
   <framerate val="24"/>
   <zdragging val="true"/>
   <zOrderCompatibilityWith7_3 val="false"/>
@@ -89,7 +96,7 @@
  <scenes>
   <scene name="Top" id="06b452d9ee30046c" nbframes="64">
    <columns>
-    <column type="0" name="Drawing" displayOrder="3" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="4" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-3" val="1" id="1"/>
      <elementSeq exposures="4-5" val="2" id="1"/>
      <elementSeq exposures="6-7" val="3" id="1"/>
@@ -99,10 +106,11 @@
      <elementSeq exposures="14-48" val="12" id="1"/>
      <elementSeq exposures="49-50" val="6" id="1"/>
      <elementSeq exposures="51-52" val="7" id="1"/>
-     <elementSeq exposures="53-54" val="9" id="1"/>
-     <elementSeq exposures="55-56" val="10" id="1"/>
+     <elementSeq exposures="53" val="9" id="1"/>
+     <elementSeq exposures="54" val="10" id="1"/>
+     <elementSeq exposures="55" val="13" id="1"/>
     </column>
-    <column type="0" name="ATV-06B454A0ADA0FBB9" displayOrder="2" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06B454A0ADA0FBB9" displayOrder="3" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-2" val="1" id="2"/>
      <elementSeq exposures="3-4" val="31" id="2"/>
      <elementSeq exposures="5-6" val="32" id="2"/>
@@ -136,18 +144,24 @@
      <elementSeq exposures="61-62" val="37" id="2"/>
      <elementSeq exposures="63-64" val="38" id="2"/>
     </column>
-    <column type="0" name="ATV-06B454A6E3B0FC08" displayOrder="4" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-06B454A6E3B0FC08" displayOrder="5" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-11" val="1" id="3"/>
      <elementSeq exposures="12-13" val="2" id="3"/>
-     <elementSeq exposures="14-56" val="3" id="3"/>
+     <elementSeq exposures="14-54" val="3" id="3"/>
     </column>
     <column type="0" name="ATV-06B456512D02538C" displayOrder="1" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-12" val="1" id="4"/>
      <elementSeq exposures="13-14" val="2" id="4"/>
      <elementSeq exposures="15-16" val="3" id="4"/>
     </column>
-    <column type="0" name="ATV-06C359BBFB400441" displayOrder="5" width="100" anonymous="true" id="5">
-     <elementSeq exposures="1-64" val="1" id="5"/>
+    <column type="0" name="ATV-06C3D31891403B59" displayOrder="2" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1-2" val="1" id="5"/>
+     <elementSeq exposures="3-4" val="2" id="5"/>
+     <elementSeq exposures="5-6" val="3" id="5"/>
+     <elementSeq exposures="7-8" val="4" id="5"/>
+     <elementSeq exposures="9-10" val="5" id="5"/>
+     <elementSeq exposures="11-12" val="6" id="5"/>
+     <elementSeq exposures="13-14" val="7" id="5"/>
     </column>
    </columns>
    <options>
@@ -158,7 +172,7 @@
      <collapsed val="false"/>
     </options>
     <nodelist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,2">
+     <module type="COMPOSITE" name="Composite" pos="0,0,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -176,13 +190,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,3">
+     <module type="DISPLAY" name="Display" pos="50,50,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,4">
+     <module type="WRITE" name="Write" pos="-50,50,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -205,7 +219,7 @@
        </enabling>
       </attrs>
      </module>
-     <module type="READ" name="Cocoa" pos="-65,-50,5">
+     <module type="READ" name="Coaco" pos="-65,-50,0">
       <options>
        <version val="1"/>
        <collapsed val="true"/>
@@ -300,7 +314,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Chip" pos="0,0,6">
+     <module type="READ" name="Chip" pos="0,0,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -395,7 +409,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="table" pos="0,0,7">
+     <module type="READ" name="table" pos="0,0,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -490,7 +504,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="BG" pos="0,0,8">
+     <module type="READ" name="BG" pos="0,0,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -585,7 +599,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Background" pos="0,0,1">
+     <module type="READ" name="chip_clean" pos="0,0,0">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -643,7 +657,7 @@
        <ikStiffness val="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-06C359BBFB400441"/>
+        <element col="ATV-06C3D31891403B59"/>
         <customName>
          <name/>
          <extension val="tga"/>
@@ -654,7 +668,7 @@
        <readColorArt val="true"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <applyMatteToColor val="W"/>
+       <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="MEDIUM"/>
        <antialiasingExponent val="1"/>
@@ -675,7 +689,7 @@
        <noClipping val="false"/>
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIT"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -684,12 +698,12 @@
     <linklist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Cocoa" in="BG"/>
-     <link out="Cocoa" in="Composite" inport="2"/>
-     <link out="Chip" in="Composite" inport="3"/>
+     <link out="Coaco" in="BG"/>
+     <link out="Coaco" in="Composite" inport="1"/>
+     <link out="Chip" in="Composite" inport="2"/>
      <link out="table" in="Composite" inport="4"/>
-     <link out="BG" in="Composite" inport="1"/>
-     <link out="Background" in="Composite" inport="0"/>
+     <link out="BG" in="Composite" inport="0"/>
+     <link out="chip_clean" in="Composite" inport="3"/>
     </linklist>
    </rootgroup>
   </scene>
