@@ -57,7 +57,7 @@
  <scenes>
   <scene name="Top" id="06b24dedb6a003ff" nbframes="30">
    <columns>
-    <column type="0" name="ATV-06B24EA43701DD7C" display="false" displayOrder="3" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06B24EA43701DD7C" displayOrder="3" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-2" val="2" id="2"/>
      <elementSeq exposures="3-4" val="5" id="2"/>
      <elementSeq exposures="5-6" val="6" id="2"/>
@@ -74,7 +74,7 @@
      <elementSeq exposures="27-28" val="17" id="2"/>
      <elementSeq exposures="29-30" val="18" id="2"/>
     </column>
-    <column type="0" name="ATV-06B2505A95E2D4CF" displayOrder="1" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-06B2505A95E2D4CF" display="false" displayOrder="1" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-2" val="1" id="4"/>
      <elementSeq exposures="3-4" val="2" id="4"/>
      <elementSeq exposures="5-6" val="3" id="4"/>
@@ -148,7 +148,6 @@
      </module>
      <module type="READ" name="Drawing" pos="0,0,4">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -244,6 +243,7 @@
      </module>
      <module type="READ" name="Drawing_1" pos="0,0,3">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -339,6 +339,7 @@
      </module>
      <module type="READ" name="Background" pos="0,0,2">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
