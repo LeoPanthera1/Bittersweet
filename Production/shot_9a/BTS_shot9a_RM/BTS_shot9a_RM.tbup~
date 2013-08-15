@@ -225,7 +225,7 @@
      <elementSeq exposures="59-63" val="26" id="5"/>
      <elementSeq exposures="64-65" val="29" id="5"/>
     </column>
-    <column type="0" name="ATV-06C35A38F010080E" displayOrder="6" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-06C35A38F010080E" display="false" displayOrder="6" width="100" anonymous="true" id="6">
      <elementSeq exposures="1-65" val="1" id="6"/>
     </column>
    </columns>
@@ -667,6 +667,7 @@
      </module>
      <module type="READ" name="Background" pos="0,0,1">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
