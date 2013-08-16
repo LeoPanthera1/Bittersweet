@@ -112,4 +112,10 @@
  <Element Name="Background" Folder="Background" ID="6" >
   <Drawing Key="" Name="1" Version="1" />
  </Element>
+ <Element Name="Drawing" Folder="Drawing" ID="7" >
+  <Drawing Key="" Name="1" Version="1" />
+ </Element>
+ <Element Name="Color" Folder="Color" ID="9" >
+  <Drawing Key="" Name="1" Version="1" />
+ </Element>
 </SceneVersion>
