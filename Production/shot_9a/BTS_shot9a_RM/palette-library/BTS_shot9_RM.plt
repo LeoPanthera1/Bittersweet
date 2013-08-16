@@ -1,7 +1,6 @@
 ToonBoomAnimationInc PaletteFile 2
-Solid    Black                      0x06b456123bb0009e   0   0   0  66
-Solid    White                      0x06b456123bb000a0 255 255 255 255
-Solid    Red                        0x06b456123bb000a2 255   0   0 255
-Solid    Green                      0x06b456123bb000a4   0 255   0 255
-Solid    Blue                       0x06b456123bb000a6   0   0 255 255
-Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
+Solid    Rough                      0x06b456123bb0009e  15   0 251  66
+Solid    Outline                    0x06c3cc1ed40013d8   0   0   0 255
+Solid    ChipBandana                0x06c3dc639eab5ff0 191  57  53 255
+Solid    Vest                       0x06c3dc6b0e7b6046  91 110 140 255
+Solid    Pants                      0x06c3dc716aeb60ce  91 110 140 255
