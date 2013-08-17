@@ -241,7 +241,7 @@
     <column type="0" name="ATV-06C3D393512BD9E7" displayOrder="2" width="100" anonymous="true" id="7">
      <elementSeq exposures="1-65" val="1" id="7"/>
     </column>
-    <column type="0" name="ATV-06C3DC5C5F3B5DD9" display="false" displayOrder="8" width="100" anonymous="true" id="9">
+    <column type="0" name="ATV-06C3DC5C5F3B5DD9" displayOrder="8" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
     </column>
     <column type="3" name="ATV-06C3DC611BAB5E98" displayOrder="9" width="100" anonymous="true">
