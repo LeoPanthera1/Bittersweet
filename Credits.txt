@@ -22,14 +22,17 @@ Michael Sardi
 Christian Williams
 Robert Mariazeta
 Earnest Flores
+Won Ho Kim
 
 Character Design:
 Won Ho Kim
+Michael Sardi
 
 Animators:
 Earnest Flores
 Robert Mariazeta
 Michael Sardi
+Won Ho Kim
 
 BG Artists:
 Kyle Ames
@@ -39,7 +42,7 @@ Clean Up and Color:
 Earnest Flores
 Robert Mariazeta
 Michael Sardi
-(Andres Sierra)
+Andres Sierra
 
 Compositor:
 Robert Pendleton
@@ -58,3 +61,10 @@ Richard Ash
 Foley Artists:
 Nicholas Hall
 Richard Ash
+
+Special Thanks:
+David Perry
+Tony Diaz
+Shane Coronella
+Aaron Miner
+and our Parents!

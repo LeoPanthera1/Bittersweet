@@ -118,6 +118,10 @@
     <dwg name="27"/>
     <dwg name="28"/>
     <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
    </drawings>
   </element>
   <element id="6" elementName="Background" elementFolder="Background" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0">
@@ -222,7 +226,10 @@
      <elementSeq exposures="27-28" val="6" id="5"/>
      <elementSeq exposures="29-30" val="17" id="5"/>
      <elementSeq exposures="31-32" val="18" id="5"/>
-     <elementSeq exposures="33-40" val="19" id="5"/>
+     <elementSeq exposures="33-34" val="19" id="5"/>
+     <elementSeq exposures="35-36" val="31" id="5"/>
+     <elementSeq exposures="37-38" val="32" id="5"/>
+     <elementSeq exposures="39-40" val="33" id="5"/>
      <elementSeq exposures="41-42" val="9" id="5"/>
      <elementSeq exposures="43-44" val="20" id="5"/>
      <elementSeq exposures="45-46" val="21" id="5"/>
