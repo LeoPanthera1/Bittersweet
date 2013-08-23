@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Animate Pro (AnimatePro.exe) version 7.9.1 build 6016 2010-09-15 10:39:08" version = "791" build="6016">
+ <element id="1" elementName="Coaco" elementFolder="Coaco" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="2" elementName="Chip" elementFolder="Chip" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="3" elementName="BG" elementFolder="BG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="4" elementName="table" elementFolder="table" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="5" elementName="chip_clean" elementFolder="chip_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="6" elementName="coaco_clean" elementFolder="coaco_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="7" elementName="TABLE_CLEAN" elementFolder="TABLE_CLEAN" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+</elements>
