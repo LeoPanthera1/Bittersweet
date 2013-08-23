@@ -1,0 +1,5 @@
+-black eye for Cocoa
+-Plate for cocoa's hand is too quiet, try changing the sound for Chip'ss hand to be a bit heavier.
+-close the gap between cocoa and Chip when she jumps over him.
+-Fix "knee" on Cocoa at the end. Seems like the poses are incorrect.
+-Cheeks should terminate at the same time as the mouth. Offset the eyebrows.
