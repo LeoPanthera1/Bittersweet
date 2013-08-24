@@ -1,6 +1,6 @@
 <!DOCTYPE SceneVersion>
 <SceneVersion VersionName="BTS_shot2_RM" ID="1" >
- <Element Name="Drawing_1" Folder="Drawing_1" ID="2" >
+ <Element Name="Rough" Folder="Rough" ID="2" >
   <Drawing Key="" Name="1" Version="1" />
   <Drawing Key="" Name="2" Version="1" />
   <Drawing Key="" Name="3" Version="1" />
@@ -18,7 +18,7 @@
  <Element Name="Background" Folder="Background" ID="3" >
   <Drawing Key="" Name="1" Version="1" />
  </Element>
- <Element Name="Drawing" Folder="Drawing" ID="4" >
+ <Element Name="Clean" Folder="Clean" ID="4" >
   <Drawing Key="" Name="1" Version="1" />
   <Drawing Key="" Name="2" Version="1" />
   <Drawing Key="" Name="3" Version="1" />
@@ -33,5 +33,4 @@
   <Drawing Key="" Name="12" Version="1" />
   <Drawing Key="" Name="13" Version="1" />
  </Element>
- <Element Name="Drawing_2" Folder="Drawing_2" ID="5" />
 </SceneVersion>

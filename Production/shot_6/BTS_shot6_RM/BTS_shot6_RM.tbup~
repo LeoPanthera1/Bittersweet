@@ -34,6 +34,7 @@
     <dwg name="4"/>
     <dwg name="5"/>
     <dwg name="6"/>
+    <dwg name="7"/>
    </drawings>
   </element>
   <element id="9" elementName="Rock" elementFolder="Rock" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
