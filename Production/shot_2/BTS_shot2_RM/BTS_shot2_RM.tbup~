@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Animate Pro (AnimatePro.exe) version 7.9.1 build 6016 2010-09-15 10:39:08" version = "791" build="6016">
  <elements>
-  <element id="2" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
+  <element id="2" elementName="Rough" elementFolder="Rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
@@ -23,7 +23,7 @@
     <dwg name="1"/>
    </drawings>
   </element>
-  <element id="4" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
+  <element id="4" elementName="Clean" elementFolder="Clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
@@ -40,7 +40,6 @@
     <dwg name="13"/>
    </drawings>
   </element>
-  <element id="5" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -52,7 +51,7 @@
  <scenes>
   <scene name="Top" id="06b44b9c4910012c" nbframes="48">
    <columns>
-    <column type="0" name="ATV-06B44CCD82D25B08" displayOrder="1" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06B44CCD82D25B08" display="false" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-14" val="2" id="2"/>
      <elementSeq exposures="15" val="12" id="2"/>
      <elementSeq exposures="16-29" val="13" id="2"/>
@@ -61,10 +60,10 @@
      <elementSeq exposures="34-37" val="7" id="2"/>
      <elementSeq exposures="38-48" val="11" id="2"/>
     </column>
-    <column type="0" name="ATV-06C356A745D03F7B" displayOrder="2" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-06C356A745D03F7B" displayOrder="3" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-48" val="1" id="3"/>
     </column>
-    <column type="0" name="ATV-06C4D61820203ABB" displayOrder="0" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-06C4D61820203ABB" displayOrder="1" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-14" val="2" id="4"/>
      <elementSeq exposures="15" val="3" id="4"/>
      <elementSeq exposures="16-25" val="4" id="4"/>
@@ -73,7 +72,6 @@
      <elementSeq exposures="29-32" val="8" id="4"/>
      <elementSeq exposures="33-48" val="12" id="4"/>
     </column>
-    <column type="0" name="ATV-06C4D902C9869774" displayOrder="0" width="100" anonymous="true" id="5"/>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -83,7 +81,7 @@
      <collapsed val="false"/>
     </options>
     <nodelist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,5">
+     <module type="COMPOSITE" name="Composite" pos="0,0,4">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -101,13 +99,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,6">
+     <module type="DISPLAY" name="Display" pos="50,50,5">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,7">
+     <module type="WRITE" name="Write" pos="-50,50,6">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -130,7 +128,7 @@
        </enabling>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_1" pos="0,0,4">
+     <module type="READ" name="Rough" pos="0,0,3">
       <options>
        <disabled val="true"/>
        <version val="1"/>
@@ -226,7 +224,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Background" pos="0,0,3">
+     <module type="READ" name="Background" pos="0,0,2">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -321,7 +319,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="0,0,2">
+     <module type="READ" name="Clean" pos="0,0,1">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -416,110 +414,13 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_2" pos="0,0,1">
-      <options>
-       <disabled val="true"/>
-       <version val="1"/>
-       <collapsed val="false"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0"/>
-        <y val="0"/>
-        <z val="0"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1"/>
-        <x val="1"/>
-        <y val="1"/>
-        <z val="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0"/>
-        <angley val="0"/>
-        <anglez val="0"/>
-       </rotation>
-       <angle val="0"/>
-       <skew val="0"/>
-       <pivot>
-        <x val="0"/>
-        <y val="0"/>
-        <z val="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0"/>
-        <y val="0"/>
-        <z val="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360"/>
-       <maxAngle val="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.2"/>
-       <ikBoneY val="0"/>
-       <ikStiffness val="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-06C4D902C9869774"/>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12"/>
-        </customName>
-       </drawing>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="MEDIUM"/>
-       <antialiasingExponent val="1"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1"/>
-       <addLineArtThickness val="0"/>
-       <minLineArtThickness val="0"/>
-       <maxLineArtThickness val="0"/>
-       <readOverlay val="true"/>
-       <readUnderlay val="true"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
     </nodelist>
     <linklist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Drawing_1" in="Composite" inport="1"/>
+     <link out="Rough" in="Composite" inport="1"/>
      <link out="Background" in="Composite" inport="0"/>
-     <link out="Drawing" in="Composite" inport="2"/>
-     <link out="Drawing_2" in="Composite" inport="3"/>
+     <link out="Clean" in="Composite" inport="2"/>
     </linklist>
    </rootgroup>
   </scene>
