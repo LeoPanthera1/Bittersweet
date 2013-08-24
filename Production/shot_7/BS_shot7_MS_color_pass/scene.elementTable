@@ -7,4 +7,5 @@
  <element id="5" elementName="chip_clean" elementFolder="chip_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="6" elementName="coaco_clean" elementFolder="coaco_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="7" elementName="TABLE_CLEAN" elementFolder="TABLE_CLEAN" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="9" elementName="Shot_1" elementFolder="Shot_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
 </elements>
