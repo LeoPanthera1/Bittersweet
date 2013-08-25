@@ -133,6 +133,14 @@
     <dwg name="1"/>
     <dwg name="2"/>
     <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+   </drawings>
+  </element>
+  <element id="9" elementName="Shot_1" elementFolder="Shot_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
+   <drawings>
+    <dwg name="1"/>
    </drawings>
   </element>
  </elements>
@@ -248,9 +256,14 @@
      <elementSeq exposures="54" val="7" id="6"/>
     </column>
     <column type="0" name="ATV-06C5D26C6A82D389" displayOrder="1" width="100" anonymous="true" id="7">
-     <elementSeq exposures="1-12" val="1" id="7"/>
+     <elementSeq exposures="1-8" val="1" id="7"/>
+     <elementSeq exposures="9-10" val="5" id="7"/>
+     <elementSeq exposures="11-12" val="6" id="7"/>
      <elementSeq exposures="13-14" val="2" id="7"/>
      <elementSeq exposures="15" val="3" id="7"/>
+    </column>
+    <column type="0" name="ATV-06C5CCEB0D90387A" display="false" displayOrder="8" width="100" anonymous="true" id="9">
+     <elementSeq exposures="1" val="1" id="9"/>
     </column>
    </columns>
    <options>
@@ -977,18 +990,115 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="Shot" pos="0,0,0">
+      <options>
+       <disabled val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1"/>
+        <y val="1"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0"/>
+       </rotation>
+       <angle val="0"/>
+       <skew val="0"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-06C5CCEB0D90387A"/>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12"/>
+        </customName>
+       </drawing>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="W"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="MEDIUM"/>
+       <antialiasingExponent val="1"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1"/>
+       <addLineArtThickness val="0"/>
+       <minLineArtThickness val="0"/>
+       <maxLineArtThickness val="0"/>
+       <readOverlay val="true"/>
+       <readUnderlay val="true"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIT"/>
+       <morphingVelo val="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
     </nodelist>
     <linklist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="Coaco" in="BG"/>
-     <link out="Coaco" in="Composite" inport="1"/>
-     <link out="Chip" in="Composite" inport="2"/>
-     <link out="BG" in="Composite" inport="0"/>
-     <link out="table" in="Composite" inport="5"/>
-     <link out="coaco_clean" in="Composite" inport="4"/>
-     <link out="chip_clean" in="Composite" inport="3"/>
-     <link out="TABLE_CLEAN" in="Composite" inport="6"/>
+     <link out="Coaco" in="Composite" inport="2"/>
+     <link out="Chip" in="Composite" inport="3"/>
+     <link out="BG" in="Composite" inport="1"/>
+     <link out="table" in="Composite" inport="6"/>
+     <link out="coaco_clean" in="Composite" inport="5"/>
+     <link out="chip_clean" in="Composite" inport="4"/>
+     <link out="TABLE_CLEAN" in="Composite" inport="7"/>
+     <link out="Shot" in="Composite" inport="0"/>
     </linklist>
    </rootgroup>
   </scene>
