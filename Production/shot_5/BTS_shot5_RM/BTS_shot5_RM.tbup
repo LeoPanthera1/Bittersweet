@@ -106,7 +106,7 @@
      <elementSeq exposures="58-59" val="30" id="1"/>
      <elementSeq exposures="60-70" val="31" id="1"/>
     </column>
-    <column type="0" name="ATV-06C35B573D5BD28A" displayOrder="1" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06C35B573D5BD28A" display="false" displayOrder="1" width="100" anonymous="true" id="2">
      <elementSeq exposures="34" val="1" id="2"/>
      <elementSeq exposures="35" val="2" id="2"/>
      <elementSeq exposures="36" val="3" id="2"/>

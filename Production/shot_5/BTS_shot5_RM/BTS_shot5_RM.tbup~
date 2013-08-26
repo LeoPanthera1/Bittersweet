@@ -125,7 +125,7 @@
      <elementSeq exposures="47" val="6" id="3"/>
      <elementSeq exposures="48-49" val="7" id="3"/>
     </column>
-    <column type="0" name="ATV-06C3575A36A00788" display="false" displayOrder="4" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-06C3575A36A00788" displayOrder="4" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-70" val="1" id="4"/>
     </column>
    </columns>
