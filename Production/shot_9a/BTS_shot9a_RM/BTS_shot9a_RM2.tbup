@@ -245,7 +245,7 @@
     <column type="0" name="ATV-06C35A38F010080E" displayOrder="5" width="100" anonymous="true" id="6">
      <elementSeq exposures="1-65" val="1" id="6"/>
     </column>
-    <column type="0" name="ATV-06C3D393512BD9E7" display="false" displayOrder="2" width="100" anonymous="true" id="7">
+    <column type="0" name="ATV-06C3D393512BD9E7" displayOrder="2" width="100" anonymous="true" id="7">
      <elementSeq exposures="1-65" val="1" id="7"/>
     </column>
    </columns>
