@@ -85,6 +85,11 @@
     <dwg name="15"/>
    </drawings>
   </element>
+  <element id="7" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -96,7 +101,7 @@
  <scenes>
   <scene name="Top" id="06c34ab712200116" nbframes="26">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="5" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="6" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-26" val="1" id="1"/>
     </column>
     <column type="0" name="ATV-06C34B107E500F7F" displayOrder="2" width="100" anonymous="true" id="2">
@@ -162,6 +167,9 @@
      <elementSeq exposures="21-22" val="13" id="6"/>
      <elementSeq exposures="23-24" val="14" id="6"/>
      <elementSeq exposures="25-26" val="15" id="6"/>
+    </column>
+    <column type="0" name="ATV-06C6D034E9B50DE7" displayOrder="5" width="100" anonymous="true" id="7">
+     <elementSeq exposures="1-26" val="1" id="7"/>
     </column>
    </columns>
    <options>
@@ -506,6 +514,101 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="Drawing" pos="0,0,0">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1"/>
+        <y val="1"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0"/>
+       </rotation>
+       <angle val="0"/>
+       <skew val="0"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-06C6D034E9B50DE7"/>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12"/>
+        </customName>
+       </drawing>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="MEDIUM"/>
+       <antialiasingExponent val="1"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1"/>
+       <addLineArtThickness val="0"/>
+       <minLineArtThickness val="0"/>
+       <maxLineArtThickness val="0"/>
+       <readOverlay val="true"/>
+       <readUnderlay val="true"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
      <module type="READ" name="bg" pos="-65,-50,7">
       <options>
        <disabled val="true"/>
@@ -701,11 +804,12 @@
     <linklist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="chip" in="Composite" inport="3"/>
-     <link out="coaco_clean" in="Composite" inport="2"/>
-     <link out="cocoa" in="Composite" inport="1"/>
+     <link out="chip" in="Composite" inport="4"/>
+     <link out="coaco_clean" in="Composite" inport="3"/>
+     <link out="cocoa" in="Composite" inport="2"/>
+     <link out="Drawing" in="Composite" inport="1"/>
      <link out="bg" in="Composite" inport="0"/>
-     <link out="chip_clean" in="Composite" inport="4"/>
+     <link out="chip_clean" in="Composite" inport="5"/>
     </linklist>
    </rootgroup>
   </scene>
