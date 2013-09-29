@@ -4,4 +4,6 @@
  <element id="2" elementName="Fart" elementFolder="Fart" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="3" elementName="Rock" elementFolder="Rock" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="4" elementName="Background" elementFolder="Background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0"/>
+ <element id="5" elementName="Hand" elementFolder="Hand" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="6" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
 </elements>
