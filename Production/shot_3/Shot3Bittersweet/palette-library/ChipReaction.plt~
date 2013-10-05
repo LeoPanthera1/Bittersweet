@@ -1,0 +1,12 @@
+ToonBoomAnimationInc PaletteFile 2
+Solid    Black                      0x06ac8d88b060023d   0   0   0 255
+Solid    White                      0x06ac8d88b060023f 255 255 255 255
+Solid    Red                        0x06ac8d88b0600241 255   0   0 255
+Solid    Green                      0x06ac8d88b0600243   0 139  96 255
+Solid    Blue                       0x06ac8d88b0600245   0  70 121 255
+Solid    glasses                    0x0000000000000003   0  49  25 255
+Solid    "New 0"                    0x06b24ed90b06cab6  85  64  90 255
+Solid    "New 1"                    0x06b24ee9bd16fa45  85 252  54 255
+Solid    "New 2"                    0x06b2533128ed2495 134 137 192 255
+Solid    "New 3"                    0x06b2536bb52d72c7  77  29 243 255
+Solid    "New 4"                    0x06b25648a1945545 188  31  19 255
