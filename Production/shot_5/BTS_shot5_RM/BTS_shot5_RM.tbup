@@ -93,6 +93,7 @@
     <dwg name="24"/>
     <dwg name="25"/>
     <dwg name="26"/>
+    <dwg name="27"/>
    </drawings>
   </element>
   <element id="6" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2">
@@ -125,7 +126,7 @@
  <scenes>
   <scene name="Top" id="06c34eaafb1003b9" nbframes="70">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="5" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="5" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-5" val="1" id="1"/>
      <elementSeq exposures="6-7" val="8" id="1"/>
      <elementSeq exposures="8-9" val="7" id="1"/>
@@ -174,10 +175,11 @@
      <elementSeq exposures="47" val="6" id="3"/>
      <elementSeq exposures="48-49" val="7" id="3"/>
     </column>
-    <column type="0" name="ATV-06C3575A36A00788" displayOrder="6" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-06C3575A36A00788" display="false" displayOrder="6" width="100" anonymous="true" id="4">
      <elementSeq exposures="1-70" val="1" id="4"/>
     </column>
     <column type="0" name="ATV-06C6CCBB7464C6C0" displayOrder="4" width="100" anonymous="true" id="5">
+     <elementSeq exposures="1" val="27" id="5"/>
      <elementSeq exposures="8-9" val="1" id="5"/>
      <elementSeq exposures="10-11" val="2" id="5"/>
      <elementSeq exposures="12-13" val="3" id="5"/>
@@ -205,7 +207,7 @@
      <elementSeq exposures="58-59" val="25" id="5"/>
      <elementSeq exposures="60-70" val="26" id="5"/>
     </column>
-    <column type="0" name="ATV-06CD520346C7AC07" display="false" displayOrder="3" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-06CD520346C7AC07" displayOrder="3" width="100" anonymous="true" id="6">
      <elementSeq exposures="12-13" val="1" id="6"/>
      <elementSeq exposures="14-23" val="2" id="6"/>
      <elementSeq exposures="24-25" val="3" id="6"/>
@@ -375,7 +377,6 @@
      </module>
      <module type="READ" name="Chip" pos="-65,-50,9">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
