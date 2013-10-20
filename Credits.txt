@@ -1,6 +1,3 @@
-Shot 9a:
-Right foot feels a bit self-modivated. Needs to flow off of the core movement better.
-
 Director:
 Robert Mariazeta
 
@@ -15,7 +12,7 @@ Jeannette Thomas
 Christian Williams
 Robert Mariazeta
 
-Preproduction Artists:
+Character Development Artists:
 Sirena Mesa
 Aimee Pitcher
 Michael Sardi
@@ -43,6 +40,8 @@ Earnest Flores
 Robert Mariazeta
 Michael Sardi
 Andres Sierra
+Justin Penfield
+Jody Ockerman
 
 Compositor:
 Robert Pendleton
@@ -52,15 +51,9 @@ Robert Pendleton
 
 Score:
 Nicholas Hall
-Richard Ash
-
-SFX:
-Nicholas Hall
-Richard Ash
 
 Foley Artists:
 Nicholas Hall
-Richard Ash
 
 Special Thanks:
 David Perry

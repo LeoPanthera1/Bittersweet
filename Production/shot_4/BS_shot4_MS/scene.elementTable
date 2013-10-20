@@ -4,5 +4,5 @@
  <element id="2" elementName="Chip" elementFolder="Chip" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="3" elementName="cocoa" elementFolder="cocoa" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="4" elementName="chip_clean" elementFolder="chip_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
- <element id="5" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="5" elementName="cocoa_clean" elementFolder="cocoa_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
 </elements>
