@@ -5,5 +5,6 @@
  <element id="3" elementName="Chip_rough" elementFolder="Chip_rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="4" elementName="Cocoa_rough" elementFolder="Cocoa_rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="6" elementName="Background" elementFolder="Background" pixmapFormat="14" scanType="2" fieldChart="12" vectorType="0"/>
- <element id="7" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="7" elementName="cocoa_clean" elementFolder="cocoa_clean" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="9" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
 </elements>
