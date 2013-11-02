@@ -5,3 +5,4 @@ Solid    Red                        0x06c2d16cb89000f6 255   0   0 255
 Solid    Green                      0x06c2d16cb89000f8   0 255   0 255
 Solid    Blue                       0x06c2d16cb89000fa   0   0 255 255
 Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
+Solid    "New 0"                    0x06d894947bb79c9f   0   0   0 255
