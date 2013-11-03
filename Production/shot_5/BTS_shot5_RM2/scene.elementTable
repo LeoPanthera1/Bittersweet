@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Animate Pro (AnimatePro.exe) version 7.9.1 build 6016 2010-09-15 10:39:08" version = "791" build="6016">
+ <element id="1" elementName="Chip" elementFolder="Chip" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="3" elementName="Rock" elementFolder="Rock" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="4" elementName="Background" elementFolder="Background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0"/>
+ <element id="6" elementName="hand" elementFolder="hand" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="7" elementName="Cookie" elementFolder="Cookie" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="8" elementName="Head" elementFolder="Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+</elements>

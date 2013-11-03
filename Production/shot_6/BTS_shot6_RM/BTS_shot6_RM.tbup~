@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Animate Pro (AnimatePro.exe) version 7.9.1 build 6016 2010-09-15 10:39:08" version = "791" build="6016">
  <elements>
-  <element id="5" elementName="Background" elementFolder="Background" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0"/>
   <element id="6" elementName="Shot_6" elementFolder="Shot_6" pixmapFormat="10" scanType="0" fieldChart="12" vectorType="0">
    <drawings>
     <dwg name="1"/>
@@ -47,10 +46,9 @@
     <dwg name="6"/>
    </drawings>
   </element>
-  <element id="12" elementName="Color" elementFolder="Color" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0">
+  <element id="13" elementName="Background" elementFolder="Background" pixmapFormat="14" scanType="2" fieldChart="12" vectorType="0">
    <drawings>
     <dwg name="1"/>
-    <dwg name="2"/>
    </drawings>
   </element>
  </elements>
@@ -64,9 +62,6 @@
  <scenes>
   <scene name="Top" id="06b24dedb6a003ff" nbframes="30">
    <columns>
-    <column type="0" name="ATV-06C359A52C5007C4" displayOrder="4" width="100" anonymous="true" id="5">
-     <sceneSeq exposures="1-30" id="06c359a52c5007c5" frame="1"/>
-    </column>
     <column type="0" name="ATV-06C35D2AA67031E5" displayOrder="2" width="100" anonymous="true" id="7">
      <elementSeq exposures="1-2" val="1" id="7"/>
      <elementSeq exposures="3-4" val="2" id="7"/>
@@ -95,57 +90,8 @@
      <elementSeq exposures="15-16" val="5" id="9"/>
      <elementSeq exposures="29-30" val="6" id="9"/>
     </column>
-    <column type="0" name="ATV-06C3C7AB1B35D2A0" displayOrder="5" width="100" anonymous="true" id="12">
-     <elementSeq exposures="1" val="1" id="12"/>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E011" displayOrder="6" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="9.26248" rx="1" ry="9.26248" lx="1" ly="9.26248"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E015" displayOrder="10" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E014" displayOrder="11" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E012" displayOrder="7" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="2.14999" rx="1" ry="2.14999" lx="1" ly="2.14999"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E013" displayOrder="8" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E016" displayOrder="12" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
-     </points>
-    </column>
-    <column type="3" name="ATV-06C3C7B0D6E5E017" displayOrder="9" width="100" anonymous="true">
-     <step val="1" start="1" stop="1"/>
-     <noFrames/>
-     <points>
-      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
-     </points>
+    <column type="0" name="ATV-06C64671B0B01A3F" displayOrder="4" width="100" anonymous="true" id="13">
+     <elementSeq exposures="1-30" val="1" id="13"/>
     </column>
    </columns>
    <options>
@@ -156,7 +102,7 @@
      <collapsed val="false"/>
     </options>
     <nodelist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,6">
+     <module type="COMPOSITE" name="Composite" pos="0,0,5">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -174,13 +120,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,7">
+     <module type="DISPLAY" name="Display" pos="50,50,6">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,8">
+     <module type="WRITE" name="Write" pos="-50,50,7">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -203,7 +149,7 @@
        </enabling>
       </attrs>
      </module>
-     <module type="READ" name="Rock" pos="0,0,1">
+     <module type="READ" name="Rock" pos="0,0,2">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -294,101 +240,6 @@
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
        <alignmentRule val="CENTER_FIRST_PAGE"/>
-       <morphingVelo val="0"/>
-       <canAnimate val="true"/>
-      </attrs>
-     </module>
-     <module type="READ" name="Background" pos="0,0,5">
-      <options>
-       <version val="1"/>
-       <collapsed val="false"/>
-      </options>
-      <attrs>
-       <enable3d val="false"/>
-       <offset>
-        <separate val="true"/>
-        <x val="0"/>
-        <y val="0"/>
-        <z val="0"/>
-       </offset>
-       <scale>
-        <separate val="true"/>
-        <inFields val="false"/>
-        <xy val="1"/>
-        <x val="1"/>
-        <y val="1"/>
-        <z val="1"/>
-       </scale>
-       <rotation>
-        <separate val="false"/>
-        <anglex val="0"/>
-        <angley val="0"/>
-        <anglez val="0"/>
-       </rotation>
-       <angle val="0"/>
-       <skew val="0"/>
-       <pivot>
-        <x val="0"/>
-        <y val="0"/>
-        <z val="0"/>
-       </pivot>
-       <splineOffset>
-        <x val="0"/>
-        <y val="0"/>
-        <z val="0"/>
-       </splineOffset>
-       <ignoreParentPegScaling val="false"/>
-       <disableFieldRendering val="false"/>
-       <depth val="0"/>
-       <enableMinMaxAngle val="false"/>
-       <minAngle val="-360"/>
-       <maxAngle val="360"/>
-       <nailForChildren val="false"/>
-       <ikHoldOrientation val="false"/>
-       <ikHoldX val="false"/>
-       <ikHoldY val="false"/>
-       <ikExcluded val="false"/>
-       <ikCanRotate val="true"/>
-       <ikCanTranslateX val="false"/>
-       <ikCanTranslateY val="false"/>
-       <ikBoneX val="0.2"/>
-       <ikBoneY val="0"/>
-       <ikStiffness val="1"/>
-       <drawing>
-        <elementMode val="true"/>
-        <element col="ATV-06C359A52C5007C4"/>
-        <customName>
-         <name/>
-         <extension val="tga"/>
-         <fieldChart val="12"/>
-        </customName>
-       </drawing>
-       <readLineArt val="true"/>
-       <readColorArt val="true"/>
-       <readColor val="true"/>
-       <readTransparency val="true"/>
-       <applyMatteToColor val="W"/>
-       <enableLineTexture val="true"/>
-       <antialiasingQuality val="MEDIUM"/>
-       <antialiasingExponent val="1"/>
-       <textureFilter val="NEAREST_FILTERED"/>
-       <adjustPencilThickness val="false"/>
-       <normalLineArtThickness val="true"/>
-       <zoomIndependentLineArtThickness val="true"/>
-       <multLineArtThickness val="1"/>
-       <addLineArtThickness val="0"/>
-       <minLineArtThickness val="0"/>
-       <maxLineArtThickness val="0"/>
-       <readOverlay val="true"/>
-       <readUnderlay val="true"/>
-       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
-       <flipHor val="false"/>
-       <flipVert val="false"/>
-       <turnBeforeAlignment val="false"/>
-       <noClipping val="false"/>
-       <xClipFactor val="0"/>
-       <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -583,9 +434,8 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Color" pos="0,0,2">
+     <module type="READ" name="Background" pos="0,0,1">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -593,26 +443,26 @@
        <enable3d val="false"/>
        <offset>
         <separate val="true"/>
-        <x val="0" col="ATV-06C3C7B0D6E5E011"/>
-        <y val="0" col="ATV-06C3C7B0D6E5E012"/>
-        <z val="0" col="ATV-06C3C7B0D6E5E013"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
        </offset>
        <scale>
         <separate val="true"/>
         <inFields val="false"/>
         <xy val="1"/>
-        <x val="1" col="ATV-06C3C7B0D6E5E014"/>
-        <y val="1" col="ATV-06C3C7B0D6E5E015"/>
+        <x val="1"/>
+        <y val="1"/>
         <z val="1"/>
        </scale>
        <rotation>
         <separate val="false"/>
         <anglex val="0"/>
         <angley val="0"/>
-        <anglez val="0" col="ATV-06C3C7B0D6E5E016"/>
+        <anglez val="0"/>
        </rotation>
-       <angle val="0" col="ATV-06C3C7B0D6E5E016"/>
-       <skew val="0" col="ATV-06C3C7B0D6E5E017"/>
+       <angle val="0"/>
+       <skew val="0"/>
        <pivot>
         <x val="0"/>
         <y val="0"/>
@@ -642,7 +492,7 @@
        <ikStiffness val="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-06C3C7AB1B35D2A0"/>
+        <element col="ATV-06C64671B0B01A3F"/>
         <customName>
          <name/>
          <extension val="tga"/>
@@ -683,11 +533,10 @@
     <linklist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Rock" in="Composite" inport="2"/>
-     <link out="Background" in="Composite" inport="1"/>
-     <link out="Clean" in="Composite" inport="3"/>
-     <link out="CocoaBody" in="Composite" inport="4"/>
-     <link out="Color" in="Composite" inport="0"/>
+     <link out="Rock" in="Composite" inport="1"/>
+     <link out="Clean" in="Composite" inport="2"/>
+     <link out="CocoaBody" in="Composite" inport="3"/>
+     <link out="Background" in="Composite" inport="0"/>
     </linklist>
    </rootgroup>
   </scene>

@@ -51,7 +51,7 @@
  <scenes>
   <scene name="Top" id="06b44b9c4910012c" nbframes="48">
    <columns>
-    <column type="0" name="ATV-06B44CCD82D25B08" display="false" displayOrder="2" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-06B44CCD82D25B08" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-14" val="2" id="2"/>
      <elementSeq exposures="15" val="12" id="2"/>
      <elementSeq exposures="16-29" val="13" id="2"/>

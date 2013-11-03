@@ -5,4 +5,6 @@
  <element id="3" elementName="cocoa" elementFolder="cocoa" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="4" elementName="clean" elementFolder="clean.4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
  <element id="5" elementName="chip" elementFolder="chip.5" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="6" elementName="Cookie" elementFolder="Cookie" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2"/>
+ <element id="7" elementName="Background" elementFolder="Background.7" pixmapFormat="14" scanType="2" fieldChart="12" vectorType="0"/>
 </elements>

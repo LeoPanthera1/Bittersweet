@@ -1,0 +1,51 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="bts_shot4_jo" ID="1" >
+ <Element Name="table" Folder="table" ID="1" >
+  <Drawing Key="" Name="1" Version="1" />
+ </Element>
+ <Element Name="Chip" Folder="Chip" ID="2" >
+  <Drawing Key="" Name="1" Version="1" />
+  <Drawing Key="" Name="2" Version="1" />
+  <Drawing Key="" Name="3" Version="1" />
+  <Drawing Key="" Name="4" Version="1" />
+  <Drawing Key="" Name="5" Version="1" />
+  <Drawing Key="" Name="6" Version="1" />
+  <Drawing Key="" Name="7" Version="1" />
+  <Drawing Key="" Name="8" Version="1" />
+  <Drawing Key="" Name="9" Version="1" />
+  <Drawing Key="" Name="10" Version="1" />
+ </Element>
+ <Element Name="cocoa" Folder="cocoa" ID="3" >
+  <Drawing Key="" Name="1" Version="1" />
+  <Drawing Key="" Name="2" Version="1" />
+  <Drawing Key="" Name="3" Version="1" />
+  <Drawing Key="" Name="4" Version="1" />
+  <Drawing Key="" Name="8" Version="1" />
+  <Drawing Key="" Name="5" Version="1" />
+ </Element>
+ <Element Name="chip_clean" Folder="chip_clean" ID="4" >
+  <Drawing Key="" Name="1" Version="1" />
+  <Drawing Key="" Name="2" Version="1" />
+  <Drawing Key="" Name="3" Version="1" />
+  <Drawing Key="" Name="4" Version="1" />
+  <Drawing Key="" Name="5" Version="1" />
+  <Drawing Key="" Name="6" Version="1" />
+  <Drawing Key="" Name="7" Version="1" />
+  <Drawing Key="" Name="8" Version="1" />
+  <Drawing Key="" Name="9" Version="1" />
+  <Drawing Key="" Name="10" Version="1" />
+  <Drawing Key="" Name="11" Version="1" />
+  <Drawing Key="" Name="12" Version="1" />
+  <Drawing Key="" Name="13" Version="1" />
+ </Element>
+ <Element Name="cocoa_clean" Folder="cocoa_clean" ID="5" >
+  <Drawing Key="" Name="1" Version="1" />
+  <Drawing Key="" Name="2" Version="1" />
+  <Drawing Key="" Name="3" Version="1" />
+  <Drawing Key="" Name="4" Version="1" />
+  <Drawing Key="" Name="5" Version="1" />
+  <Drawing Key="" Name="6" Version="1" />
+  <Drawing Key="" Name="7" Version="1" />
+  <Drawing Key="" Name="8" Version="1" />
+ </Element>
+</SceneVersion>
